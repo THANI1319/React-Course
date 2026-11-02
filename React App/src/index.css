@@ -1,0 +1,44 @@
+.card{
+  background-color:lightgray;
+  color:black;
+  max-width:300px;
+  text-align:center;
+  border: 1px solid black;
+  border-radius:10px;
+  margin:70px;
+  display:inline-block;
+  padding:10px;
+}
+.card  p{
+  color:red; 
+}
+
+.card img{
+  width:200px;
+  height:200px;
+  object-fit:cover; 
+}
+
+.card:hover{
+  transform:scale(1.1);
+  transition:transform 0.7s;
+}
+.card button{
+  background-color:green;
+  color:white;
+  padding:10px;
+  border:none;
+  border-radius:5px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+#discount{
+  background-color:orange;
+  color:white;
+  padding:10px;
+  border:none;
+  border-radius:5px;
+  margin-top:10px;
+  cursor:pointer;
+}

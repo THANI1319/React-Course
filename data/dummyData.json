@@ -1,0 +1,40 @@
+{ "courses" : [
+        {
+            "id":1,
+            "name":"HTML COURSE",
+            "description":"This is a HTML Course." ,
+            "img":"http://localhost:3000/assets/html.png",
+            "price":299 ,
+            "rating":5 
+
+        },
+        {
+            "id":2,
+            "name":"CSS COURSE",
+            "description":"This is a CSS Course." ,
+            "img":"http://localhost:3000/assets/css.jpg",
+            "price":249 ,
+            "rating":4.9
+        },
+        {
+            "id":3,
+            "name":"JS COURSE",
+            "description":"This is a JS Course." ,
+            "img":"http://localhost:3000/assets/js.png",
+            "price":399 ,
+            "rating":4.8 
+        },
+        {
+            "id":4,
+            "name":"REACT COURSE",
+            "description":"This is a REACT Course." ,
+            "img":"http://localhost:3000/assets/react.jpg",
+            "price":499 ,
+            "rating":4.5
+        },
+        {
+           
+        }
+
+]
+}
