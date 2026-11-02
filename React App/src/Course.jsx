@@ -16,6 +16,7 @@ function Course(props){
 
     
     return(
+    
       props.name &&  <div className="card">
             <img src={props.img} alt="" />
             <h3>{props.name}</h3>
@@ -30,6 +31,7 @@ function Course(props){
 
             <br/>
         </div>
+    
 
     );
 }

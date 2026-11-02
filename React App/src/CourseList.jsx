@@ -54,7 +54,62 @@ function CourseList(){
 
     return(
         <>
+        <header style={{ 
+                textAlign: 'center', 
+                padding: '20px', 
+                backgroundColor: '#282c34', 
+                color: 'red',
+                marginBottom: '20px' 
+            }}>
+                <h1 style={{ margin: 0 }}>My Courses</h1>
+            </header>
         {coursesList}
+        <footer style={{ 
+                textAlign: 'center', 
+                padding: '25px', 
+                marginTop: '50px', 
+                backgroundColor: '#282c34', 
+                color: 'white' 
+            }}>
+                <p style={{ margin: '0 0 10px 0' }}>Developed by <strong>Thanigaivel V</strong></p>
+                
+                <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+                    <a 
+                        href="https://github.com/THANI1319" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: '#61dafb', textDecoration: 'none', fontWeight: 'bold' }}
+                    >
+                        GitHub
+                    </a>
+                    <span>|</span>
+                    <a 
+                        href="https://linkedin.com/in/thanigaivel-v-" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: '#61dafb', textDecoration: 'none', fontWeight: 'bold' }}
+                    >
+                        LinkedIn
+                    </a>
+                    <span>|</span>
+                       <a  href="https://thani-portfolio.vercel.app/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: '#61dafb', textDecoration: 'none', fontWeight: 'bold' }}
+                    >
+                        Portfolio
+                    </a>
+                    <span>|</span>
+                    <a 
+                        href="https://wa.me/919962139958?text=Hi%20I%20saw%20your%20React%20Course%20website" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: '#25D366', textDecoration: 'none', fontWeight: 'bold' }}
+                    >
+                        WhatsApp
+                    </a>
+                </div>
+            </footer>
         </>
 
     )
